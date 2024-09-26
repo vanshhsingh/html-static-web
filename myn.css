@@ -1,0 +1,115 @@
+html,body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.topbar {
+    width: 98vw;
+    height: 10vh; /* Adjust height for better visibility */
+    background-color: #ffffff;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    text-align: left; /* Align content to the left */
+    position: relative; /* Use relative positioning */
+    padding: 0 20px;
+    line-height: 10vh; /* Center text within topbar */
+}
+
+/* Style for the logo */
+.logo {
+    height: 6vh; /* Adjust the logo height as needed */
+    margin: 10px 15px 0 0; /* Margin around the logo */
+    display: inline-block; /* Ensure it's an inline-block element */
+    vertical-align: middle; /* Align logo vertically */
+}
+
+/* Style for the search bar */
+.desktop-searchBar {
+    width: 40vw; /* Set width for the search bar */
+    font-size: 14px;
+    padding: 10px;
+    margin: 0 20px; /* Add margin for spacing */
+    color: #696e79;
+    border: 1px solid #f5f5f6;
+    border-radius: 4px;
+    background: #f5f5f6;
+    outline: none;
+    display: inline-block; /* Inline block to sit beside logo */
+    vertical-align: middle; /* Align search bar vertically */
+}
+
+/* Style for the buttons */
+.topbar-button {
+    margin-left: 10px; /* Space between buttons */
+    padding: 60px; /* Padding inside button */
+    background-color: transparent; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: inline; /* Inline block to sit beside other elements */
+    vertical-align: middle; /* Align vertically with other elements */
+    position: relative; /* Relative position for dropdown */
+}
+
+/* Profile icon style */
+.profile-icon {
+    width: 30px; /* Width of the profile icon */
+    height: 30px; /* Height of the profile icon */
+    vertical-align: middle; /* Align vertically with other elements */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Align the button container */
+.button-container {
+    display: inline-block; /* Inline-block to keep it within flow */
+    position: absolute; /* Use absolute positioning */
+    right: 20px; /* Position to the right */
+    top: 50%; /* Align vertically */
+    transform: translateY(-50%); /* Center vertically */
+    white-space: nowrap; /* Prevent buttons from wrapping */
+}
+
+/* Dropdown menu style */
+.dropdown-menu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 45px; /* Position below the button */
+    left: 0;
+    background-color: #ffffff; /* Background color */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 0;
+    min-width: 150px; /* Minimum width */
+    z-index: 10; /* Ensure it's above other elements */
+}
+
+/* Dropdown menu items */
+.dropdown-menu a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    background-color: #f5f5f5; /* Slight background color */
+    border-bottom: 1px solid #eaeaea; /* Border between items */
+}
+
+/* Hover effect for menu items */
+.dropdown-menu a:hover {
+    background-color: #007bff; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Show dropdown on hover */
+.topbar-button:hover .dropdown-menu {
+    display: block; /* Show menu on hover */
+}
+.myntra12{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 99vw;
+}
